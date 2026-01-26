@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "userId": 101,
+    "type": "hotel",
+    "hotelId": 201,
+    "checkIn": "2025-02-14",
+    "checkOut": "2025-02-15",
+    "price": 3200
+  },
+  {
+    "id": 2,
+    "userId": 102,
+    "type": "guide",
+    "guideId": 301,
+    "date": "2025-03-01",
+    "durationHours": 3,
+    "price": 1200
+  }
+]

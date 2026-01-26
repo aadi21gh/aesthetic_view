@@ -1,0 +1,610 @@
+[
+  {
+    "id": 1,
+    "state": "Andhra Pradesh",
+    "name": "Araku Valley",
+    "location": "Visakhapatnam",
+    "image": "/images/attractions/araku.jpg",
+    "description": "Picturesque valley known for coffee plantations and scenic viewpoints."
+  },
+  {
+    "id": 2,
+    "state": "Andhra Pradesh",
+    "name": "Tirumala Temple",
+    "location": "Tirupati",
+    "image": "/images/attractions/tirumala.jpg",
+    "description": "One of the world’s most visited Hindu temples dedicated to Lord Venkateswara."
+  },
+  {
+    "id": 3,
+    "state": "Arunachal Pradesh",
+    "name": "Tawang Monastery",
+    "location": "Tawang",
+    "image": "/images/attractions/tawang.jpg",
+    "description": "India’s largest monastery offering spiritual ambience and Himalayan views."
+  },
+  {
+    "id": 4,
+    "state": "Arunachal Pradesh",
+    "name": "Ziro Valley",
+    "location": "Lower Subansiri",
+    "image": "/images/attractions/ziro.jpg",
+    "description": "UNESCO tentative site known for rice fields and Apatani tribal culture."
+  },
+  {
+    "id": 5,
+    "state": "Assam",
+    "name": "Kaziranga National Park",
+    "location": "Golaghat",
+    "image": "/images/attractions/kaziranga.jpg",
+    "description": "UNESCO park home to two-thirds of the world’s one-horned rhinos."
+  },
+  {
+    "id": 6,
+    "state": "Assam",
+    "name": "Majuli Island",
+    "location": "Brahmaputra River",
+    "image": "/images/attractions/majuli.jpg",
+    "description": "World’s largest river island, famous for Vaishnavite monasteries."
+  },
+  {
+    "id": 7,
+    "state": "Bihar",
+    "name": "Mahabodhi Temple",
+    "location": "Bodh Gaya",
+    "image": "/images/attractions/mahabodhi.jpg",
+    "description": "UNESCO site where Gautama Buddha attained enlightenment."
+  },
+  {
+    "id": 8,
+    "state": "Bihar",
+    "name": "Nalanda University Ruins",
+    "location": "Nalanda",
+    "image": "/images/attractions/nalanda.jpg",
+    "description": "Ancient learning center and one of the world’s earliest residential universities."
+  },
+  {
+    "id": 9,
+    "state": "Chhattisgarh",
+    "name": "Chitrakote Falls",
+    "location": "Bastar",
+    "image": "/images/attractions/chitrakote.jpg",
+    "description": "Known as the Niagara of India for its wide horseshoe shape."
+  },
+  {
+    "id": 10,
+    "state": "Chhattisgarh",
+    "name": "Barnawapara Wildlife Sanctuary",
+    "location": "Mahasamund",
+    "image": "/images/attractions/barnawapara.jpg",
+    "description": "Wildlife haven with leopards, bison, and dense forests."
+  },
+  {
+    "id": 11,
+    "state": "Goa",
+    "name": "Calangute Beach",
+    "location": "North Goa",
+    "image": "/images/attractions/calangute.jpg",
+    "description": "Popular beach famous for water sports and nightlife."
+  },
+  {
+    "id": 12,
+    "state": "Goa",
+    "name": "Basilica of Bom Jesus",
+    "location": "Old Goa",
+    "image": "/images/attractions/bomjesus.jpg",
+    "description": "UNESCO church known for holding the relics of St. Francis Xavier."
+  },
+  {
+    "id": 13,
+    "state": "Gujarat",
+    "name": "Statue of Unity",
+    "location": "Kevadia",
+    "image": "/images/attractions/statueofunity.jpg",
+    "description": "World’s tallest statue dedicated to Sardar Vallabhbhai Patel."
+  },
+  {
+    "id": 14,
+    "state": "Gujarat",
+    "name": "Rann of Kutch",
+    "location": "Kutch",
+    "image": "/images/attractions/rannofkutch.jpg",
+    "description": "White desert known for Rann Utsav and cultural festivities."
+  },
+  {
+    "id": 15,
+    "state": "Haryana",
+    "name": "Kingdom of Dreams",
+    "location": "Gurugram",
+    "image": "/images/attractions/kod.jpg",
+    "description": "Entertainment and culture destination with musicals and performances."
+  },
+  {
+    "id": 16,
+    "state": "Haryana",
+    "name": "Sultanpur Bird Sanctuary",
+    "location": "Gurugram",
+    "image": "/images/attractions/sultanpur.jpg",
+    "description": "Protected sanctuary home to rich migratory bird species."
+  },
+  {
+    "id": 17,
+    "state": "Himachal Pradesh",
+    "name": "Rohtang Pass",
+    "location": "Manali",
+    "image": "/images/attractions/rohtang.jpg",
+    "description": "High-altitude pass offering snow adventure and scenic beauty."
+  },
+  {
+    "id": 18,
+    "state": "Himachal Pradesh",
+    "name": "Spiti Valley",
+    "location": "Lahaul & Spiti",
+    "image": "/images/attractions/spiti.jpg",
+    "description": "Desert mountain valley known for monasteries and rugged landscapes."
+  },
+  {
+    "id": 19,
+    "state": "Jharkhand",
+    "name": "Dassam Falls",
+    "location": "Ranchi",
+    "image": "/images/attractions/dassam.jpg",
+    "description": "Majestic waterfall surrounded by dense forests."
+  },
+  {
+    "id": 20,
+    "state": "Jharkhand",
+    "name": "Patratu Valley",
+    "location": "Ranchi",
+    "image": "/images/attractions/patratu.jpg",
+    "description": "Scenic valley with winding roads and lush green hills."
+  },
+  {
+    "id": 21,
+    "state": "Karnataka",
+    "name": "Mysore Palace",
+    "location": "Mysuru",
+    "image": "/images/attractions/mysorepalace.jpg",
+    "description": "Royal palace known for its Indo-Saracenic architecture."
+  },
+  {
+    "id": 22,
+    "state": "Karnataka",
+    "name": "Coorg",
+    "location": "Kodagu",
+    "image": "/images/attractions/coorg.jpg",
+    "description": "Hill station famous for coffee estates and waterfalls."
+  },
+  {
+    "id": 23,
+    "state": "Kerala",
+    "name": "Alleppey Backwaters",
+    "location": "Alleppey",
+    "image": "/images/attractions/alleppey.jpg",
+    "description": "Network of waterways known for houseboats and lush scenery."
+  },
+  {
+    "id": 24,
+    "state": "Kerala",
+    "name": "Munnar",
+    "location": "Idukki",
+    "image": "/images/attractions/munnar.jpg",
+    "description": "Famous tea-growing hill station with cool climate."
+  },
+  {
+    "id": 25,
+    "state": "Madhya Pradesh",
+    "name": "Khajuraho Temples",
+    "location": "Chhatarpur",
+    "image": "/images/attractions/khajuraho.jpg",
+    "description": "UNESCO temples known for intricate sculptures."
+  },
+  {
+    "id": 26,
+    "state": "Madhya Pradesh",
+    "name": "Sanchi Stupa",
+    "location": "Sanchi",
+    "image": "/images/attractions/sanchi.jpg",
+    "description": "Ancient Buddhist monument built by Emperor Ashoka."
+  },
+  {
+    "id": 27,
+    "state": "Maharashtra",
+    "name": "Gateway of India",
+    "location": "Mumbai",
+    "image": "/images/attractions/gatewayofindia.jpg",
+    "description": "Historic arch-monument facing the Arabian Sea."
+  },
+  {
+    "id": 28,
+    "state": "Maharashtra",
+    "name": "Ajanta Caves",
+    "location": "Aurangabad",
+    "image": "/images/attractions/ajanta.jpg",
+    "description": "UNESCO caves known for ancient Buddhist paintings."
+  },
+  {
+    "id": 29,
+    "state": "Manipur",
+    "name": "Loktak Lake",
+    "location": "Moirang",
+    "image": "/images/attractions/loktak.jpg",
+    "description": "Floating lake known for phumdis and Keibul Lamjao park."
+  },
+  {
+    "id": 30,
+    "state": "Manipur",
+    "name": "Kangla Fort",
+    "location": "Imphal",
+    "image": "/images/attractions/kangla.jpg",
+    "description": "Historic fort and cultural landmark of Imphal."
+  },
+  {
+    "id": 31,
+    "state": "Meghalaya",
+    "name": "Living Root Bridge",
+    "location": "Cherrapunji",
+    "image": "/images/attractions/rootbridge.jpg",
+    "description": "Naturally built bridge made of tangled roots."
+  },
+  {
+    "id": 32,
+    "state": "Meghalaya",
+    "name": "Umiam Lake",
+    "location": "Shillong",
+    "image": "/images/attractions/umiam.jpg",
+    "description": "Large reservoir popular for watersports and relaxation."
+  },
+  {
+    "id": 33,
+    "state": "Mizoram",
+    "name": "Vantawng Falls",
+    "location": "Serchhip",
+    "image": "/images/attractions/vantawng.jpg",
+    "description": "Tallest and most spectacular waterfall in Mizoram."
+  },
+  {
+    "id": 34,
+    "state": "Mizoram",
+    "name": "Reiek Tlang",
+    "location": "Reiek",
+    "image": "/images/attractions/reiek.jpg",
+    "description": "Hilltop viewpoint offering panoramic views."
+  },
+  {
+    "id": 35,
+    "state": "Nagaland",
+    "name": "Kohima War Cemetery",
+    "location": "Kohima",
+    "image": "/images/attractions/kohimacemetery.jpg",
+    "description": "WWII memorial maintained in honor of fallen soldiers."
+  },
+  {
+    "id": 36,
+    "state": "Nagaland",
+    "name": "Dzukou Valley",
+    "location": "Kohima",
+    "image": "/images/attractions/dzukou.jpg",
+    "description": "Scenic valley known for trekking and seasonal lilies."
+  },
+  {
+    "id": 37,
+    "state": "Odisha",
+    "name": "Konark Sun Temple",
+    "location": "Konark",
+    "image": "/images/attractions/konark.jpg",
+    "description": "13th-century UNESCO temple shaped like a massive chariot."
+  },
+  {
+    "id": 38,
+    "state": "Odisha",
+    "name": "Chilika Lake",
+    "location": "Puri",
+    "image": "/images/attractions/chilika.jpg",
+    "description": "Asia’s largest brackish water lagoon known for dolphins."
+  },
+  {
+    "id": 39,
+    "state": "Punjab",
+    "name": "Golden Temple",
+    "location": "Amritsar",
+    "image": "/images/attractions/goldentemple.jpg",
+    "description": "Sacred Sikh shrine covered in shimmering gold."
+  },
+  {
+    "id": 40,
+    "state": "Punjab",
+    "name": "Wagah Border",
+    "location": "Amritsar",
+    "image": "/images/attractions/wagah.jpg",
+    "description": "International border famous for daily beating retreat ceremony."
+  },
+  {
+    "id": 41,
+    "state": "Rajasthan",
+    "name": "Hawa Mahal",
+    "location": "Jaipur",
+    "image": "/images/attractions/hawamahal.jpg",
+    "description": "Iconic palace with honeycomb-like windows."
+  },
+  {
+    "id": 42,
+    "state": "Rajasthan",
+    "name": "Jaisalmer Fort",
+    "location": "Jaisalmer",
+    "image": "/images/attractions/jaisalmerfort.jpg",
+    "description": "Living fort built from golden yellow sandstone."
+  },
+  {
+    "id": 43,
+    "state": "Sikkim",
+    "name": "Tsomgo Lake",
+    "location": "East Sikkim",
+    "image": "/images/attractions/tsomgo.jpg",
+    "description": "High-altitude glacial lake surrounded by snow peaks."
+  },
+  {
+    "id": 44,
+    "state": "Sikkim",
+    "name": "Nathula Pass",
+    "location": "Gangtok",
+    "image": "/images/attractions/nathula.jpg",
+    "description": "Historic Indo-China border pass on the Silk Route."
+  },
+  {
+    "id": 45,
+    "state": "Tamil Nadu",
+    "name": "Meenakshi Temple",
+    "location": "Madurai",
+    "image": "/images/attractions/meenakshi.jpg",
+    "description": "Historic temple known for colorful gopurams."
+  },
+  {
+    "id": 46,
+    "state": "Tamil Nadu",
+    "name": "Shore Temple",
+    "location": "Mahabalipuram",
+    "image": "/images/attractions/shoretemple.jpg",
+    "description": "UNESCO coastal temple carved from granite."
+  },
+  {
+    "id": 47,
+    "state": "Telangana",
+    "name": "Charminar",
+    "location": "Hyderabad",
+    "image": "/images/attractions/charminar.jpg",
+    "description": "Historic monument and symbol of Hyderabad."
+  },
+  {
+    "id": 48,
+    "state": "Telangana",
+    "name": "Golconda Fort",
+    "location": "Hyderabad",
+    "image": "/images/attractions/golconda.jpg",
+    "description": "Famous fort with unique acoustic architecture."
+  },
+  {
+    "id": 49,
+    "state": "Tripura",
+    "name": "Ujjayanta Palace",
+    "location": "Agartala",
+    "image": "/images/attractions/ujjayanta.jpg",
+    "description": "Royal palace with Mughal-European architecture."
+  },
+  {
+    "id": 50,
+    "state": "Tripura",
+    "name": "Neermahal Palace",
+    "location": "Melaghar",
+    "image": "/images/attractions/neermahal.jpg",
+    "description": "Water palace located in the middle of Rudrasagar Lake."
+  },
+  {
+    "id": 51,
+    "state": "Uttar Pradesh",
+    "name": "Taj Mahal",
+    "location": "Agra",
+    "image": "/images/attractions/tajmahal.jpg",
+    "description": "World-famous marble mausoleum built by Shah Jahan."
+  },
+  {
+    "id": 52,
+    "state": "Uttar Pradesh",
+    "name": "Varanasi Ghats",
+    "location": "Varanasi",
+    "image": "/images/attractions/varanasighats.jpg",
+    "description": "Sacred riverfront steps along the Ganges."
+  },
+  {
+    "id": 53,
+    "state": "Uttarakhand",
+    "name": "Valley of Flowers",
+    "location": "Chamoli",
+    "image": "/images/attractions/valleyofflowers.jpg",
+    "description": "UNESCO park known for alpine flowers and scenic beauty."
+  },
+  {
+    "id": 54,
+    "state": "Uttarakhand",
+    "name": "Kedarnath Temple",
+    "location": "Rudraprayag",
+    "image": "/images/attractions/kedarnath.jpg",
+    "description": "Sacred Himalayan shrine dedicated to Lord Shiva."
+  },
+  {
+    "id": 55,
+    "state": "West Bengal",
+    "name": "Victoria Memorial",
+    "location": "Kolkata",
+    "image": "/images/attractions/victoriamemorial.jpg",
+    "description": "Marble monument dedicated to Queen Victoria."
+  },
+  {
+    "id": 56,
+    "state": "West Bengal",
+    "name": "Sundarbans",
+    "location": "South 24 Parganas",
+    "image": "/images/attractions/sundarbans.jpg",
+    "description": "World’s largest mangrove forest and home to Bengal tigers."
+  },
+  {
+    "id": 57,
+    "state": "Delhi",
+    "name": "India Gate",
+    "location": "New Delhi",
+    "image": "/images/attractions/indiagate.jpg",
+    "description": "War memorial built in honor of Indian soldiers."
+  },
+  {
+    "id": 58,
+    "state": "Delhi",
+    "name": "Red Fort",
+    "location": "Old Delhi",
+    "image": "/images/attractions/redfort.jpg",
+    "description": "17th-century Mughal fort and UNESCO heritage site."
+  },
+  {
+    "id": 59,
+    "state": "Jammu & Kashmir",
+    "name": "Dal Lake",
+    "location": "Srinagar",
+    "image": "/images/attractions/dallake.jpg",
+    "description": "Scenic lake known for houseboats and shikara rides."
+  },
+  {
+    "id": 60,
+    "state": "Jammu & Kashmir",
+    "name": "Gulmarg",
+    "location": "Baramulla",
+    "image": "/images/attractions/gulmarg.jpg",
+    "description": "Popular hill station known for skiing and gondola rides."
+  },
+  {
+    "id": 61,
+    "state": "Ladakh",
+    "name": "Pangong Lake",
+    "location": "Leh",
+    "image": "/images/attractions/pangong.jpg",
+    "description": "High-altitude lake known for its changing blue shades."
+  },
+  {
+    "id": 62,
+    "state": "Ladakh",
+    "name": "Magnetic Hill",
+    "location": "Leh",
+    "image": "/images/attractions/magnetichill.jpg",
+    "description": "Optical illusion hill where vehicles appear to roll uphill."
+  },
+  {
+    "id": 63,
+    "state": "Andaman & Nicobar Islands",
+    "name": "Radhanagar Beach",
+    "location": "Havelock Island",
+    "image": "/images/attractions/radhanagar.jpg",
+    "description": "One of Asia’s best beaches with turquoise waters."
+  },
+  {
+    "id": 64,
+    "state": "Andaman & Nicobar Islands",
+    "name": "Cellular Jail",
+    "location": "Port Blair",
+    "image": "/images/attractions/cellularjail.jpg",
+    "description": "Historic colonial prison known as Kala Pani."
+  },
+  {
+    "id": 65,
+    "state": "Puducherry",
+    "name": "Auroville",
+    "location": "Auroville",
+    "image": "/images/attractions/auroville.jpg",
+    "description": "Spiritual township promoting human unity."
+  },
+  {
+    "id": 66,
+    "state": "Puducherry",
+    "name": "Promenade Beach",
+    "location": "White Town",
+    "image": "/images/attractions/promenade.jpg",
+    "description": "Popular seafront walkway with French colonial charm."
+  },
+  {
+    "id": 67,
+    "state": "Chandigarh",
+    "name": "Rock Garden",
+    "location": "Sector 1",
+    "image": "/images/attractions/rockgarden.jpg",
+    "description": "Unique garden made from industrial and household waste."
+  },
+  {
+    "id": 68,
+    "state": "Chandigarh",
+    "name": "Sukhna Lake",
+    "location": "Sector 1",
+    "image": "/images/attractions/sukhna.jpg",
+    "description": "Man-made lake popular for boating and morning walks."
+  },
+  {
+    "id": 69,
+    "state": "Lakshadweep",
+    "name": "Agatti Island",
+    "location": "Agatti",
+    "image": "/images/attractions/agatti.jpg",
+    "description": "Tropical island known for coral reefs and blue lagoons."
+  },
+  {
+    "id": 70,
+    "state": "Lakshadweep",
+    "name": "Bangaram Island",
+    "location": "Bangaram",
+    "image": "/images/attractions/bangaram.jpg",
+    "description": "Beautiful atoll ideal for scuba diving and snorkeling."
+  },
+  {
+    "id": 71,
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "name": "Diu Fort",
+    "location": "Diu",
+    "image": "/images/attractions/diufort.jpg",
+    "description": "Massive Portuguese fort overlooking the Arabian Sea."
+  },
+  {
+    "id": 72,
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "name": "Jampore Beach",
+    "location": "Daman",
+    "image": "/images/attractions/jampore.jpg",
+    "description": "Quiet beach known for peace, camel rides, and sunsets."
+  },
+  {
+    "id": 73,
+    "state": "Maharashtra",
+    "name": "Marine Drive",
+    "location": "Mumbai",
+    "image": "/images/attractions/marinedrive.jpg",
+    "description": "Famous boulevard along the Arabian Sea, known as Queen’s Necklace at night."
+  },
+  {
+    "id": 74,
+    "state": "Maharashtra",
+    "name": "Raigad Fort",
+    "location": "Raigad",
+    "image": "/images/attractions/raigad.jpg",
+    "description": "Capital fort of Chhatrapati Shivaji Maharaj, featuring the royal palace and Maha Darwaza."
+  },
+  {
+    "id": 75,
+    "state": "Maharashtra",
+    "name": "Pratapgad Fort",
+    "location": "Mahabaleshwar",
+    "image": "/images/attractions/pratapgad.jpg",
+    "description": "Site of the historic battle between Shivaji Maharaj and Afzal Khan; offers panoramic views."
+  },
+  {
+    "id": 76,
+    "state": "Maharashtra",
+    "name": "Rajgad Fort",
+    "location": "Pune",
+    "image": "/images/attractions/rajgad.jpg",
+    "description": "Former capital of the Maratha Empire, popular for trekking and historical significance."
+  }
+]

@@ -1,0 +1,21 @@
+:root {
+    --beige: #F5EEDC;
+    --light-brown: #C19A6B;
+    --brown: #8B5E3C;
+    --dark-brown: #5A3E2B;
+    --deep-brown: #2E1F13;
+    --accent: #D5B895;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: var(--brown);
+    color: var(--beige);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: var(--dark-brown);
+  }
+  

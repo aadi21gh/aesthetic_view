@@ -1,0 +1,470 @@
+[
+  {
+    "id": 1,
+    "name": "Rajasthan",
+    "region": "North",
+    "description": "Land of kings, forts, deserts, and a rich cultural heritage.",
+    "attractions": [
+      { "id": 11, "name": "Hawa Mahal", "location": "Jaipur", "image": "/images/attractions/hawamahal.jpg" },
+      { "id": 12, "name": "Sam Sand Dunes", "location": "Jaisalmer", "image": "/images/attractions/samsanddunes.jpg" }
+    ],
+    "traditionalAttire": "Ghagra-Choli, Sherwani, Pagdi",
+    "music": "Ghoomar, Kalbeliya",
+    "dance": "Ghoomar Dance"
+  },
+  {
+    "id": 2,
+    "name": "Kerala",
+    "region": "South",
+    "description": "Known as God's Own Country with backwaters, forests and traditions.",
+    "attractions": [
+      { "id": 21, "name": "Alleppey Backwaters", "location": "Alappuzha", "image": "/images/attractions/alleppey.jpg" },
+      { "id": 22, "name": "Munnar Tea Gardens", "location": "Munnar", "image": "/images/attractions/munnar.jpg" }
+    ],
+    "traditionalAttire": "Kasavu Saree, Mundu",
+    "music": "Sopana Sangeetham",
+    "dance": "Kathakali, Mohiniyattam"
+  },
+  {
+    "id": 3,
+    "name": "Maharashtra",
+    "region": "West",
+    "description": "Land of Bollywood, forts, caves, and a diverse cultural heritage.",
+    "attractions": [
+      { "id": 31, "name": "Gateway of India", "location": "Mumbai", "image": "/images/attractions/gatewayofindia.jpg" },
+      { "id": 32, "name": "Ajanta & Ellora Caves", "location": "Aurangabad", "image": "/images/attractions/ajantaellora.jpg" }
+    ],
+    "traditionalAttire": "Nauvari Saree, Kurta-Pajama, Dhoti",
+    "music": "Lavani, Bhavageet",
+    "dance": "Lavani, Tamasha"
+  },
+  {
+    "id": 4,
+    "name": "Tamil Nadu",
+    "region": "South",
+    "description": "Land of temples, classical arts, and rich Dravidian culture.",
+    "attractions": [
+      { "id": 41, "name": "Meenakshi Temple", "location": "Madurai", "image": "/images/attractions/meenakshi.jpg" },
+      { "id": 42, "name": "Mahabalipuram", "location": "Chennai", "image": "/images/attractions/mahabalipuram.jpg" }
+    ],
+    "traditionalAttire": "Saree, Dhoti, Veshti",
+    "music": "Carnatic music",
+    "dance": "Bharatanatyam"
+  },
+  {
+    "id": 5,
+    "name": "Karnataka",
+    "region": "South",
+    "description": "Famous for palaces, heritage sites, classical arts, and coffee plantations.",
+    "attractions": [
+      { "id": 51, "name": "Mysore Palace", "location": "Mysore", "image": "/images/attractions/mysorepalace.jpg" },
+      { "id": 52, "name": "Hampi", "location": "Hampi", "image": "/images/attractions/hampi.jpg" }
+    ],
+    "traditionalAttire": "Saree, Dhoti, Kurta",
+    "music": "Carnatic music, Bhavageete",
+    "dance": "Yakshagana, Bharatanatyam"
+  },
+  {
+    "id": 6,
+    "name": "Punjab",
+    "region": "North",
+    "description": "Known for vibrant festivals, Bhangra dance, and rich Sikh heritage.",
+    "attractions": [
+      { "id": 61, "name": "Golden Temple", "location": "Amritsar", "image": "/images/attractions/goldentemple.jpg" },
+      { "id": 62, "name": "Wagah Border", "location": "Amritsar", "image": "/images/attractions/wagahborder.jpg" }
+    ],
+    "traditionalAttire": "Salwar-Kameez, Kurta-Pajama, Turban",
+    "music": "Bhangra, Giddha",
+    "dance": "Bhangra, Giddha"
+  },
+  {
+    "id": 7,
+    "name": "Odisha",
+    "region": "East",
+    "description": "Famous for temples, art, handicrafts, and classical dances.",
+    "attractions": [
+      { "id": 71, "name": "Konark Sun Temple", "location": "Konark", "image": "/images/attractions/konark.jpg" },
+      { "id": 72, "name": "Puri Jagannath Temple", "location": "Puri", "image": "/images/attractions/puri.jpg" }
+    ],
+    "traditionalAttire": "Saree, Dhoti, Kurta",
+    "music": "Odissi Music, Folk songs",
+    "dance": "Odissi, Gotipua"
+  },
+  {
+    "id": 8,
+    "name": "Uttar Pradesh",
+    "region": "North",
+    "description": "Land of the Taj Mahal, spiritual cities, and rich Ganga traditions.",
+    "attractions": [
+      { "id": 81, "name": "Taj Mahal", "location": "Agra", "image": "/images/attractions/tajmahal.jpg" },
+      { "id": 82, "name": "Varanasi Ghats", "location": "Varanasi", "image": "/images/attractions/varanasi.jpg" }
+    ],
+    "traditionalAttire": "Kurta-Pajama, Saree",
+    "music": "Classical Hindustani",
+    "dance": "Kathak"
+  },
+  {
+    "id": 9,
+    "name": "Gujarat",
+    "region": "West",
+    "description": "Known for Garba, white deserts, and rich textile heritage.",
+    "attractions": [
+      { "id": 91, "name": "Statue of Unity", "location": "Kevadia", "image": "/images/attractions/soUnity.jpg" },
+      { "id": 92, "name": "Rann of Kutch", "location": "Kutch", "image": "/images/attractions/kutch.jpg" }
+    ],
+    "traditionalAttire": "Chaniya Choli, Kediyu",
+    "music": "Garba Songs",
+    "dance": "Garba, Dandiya"
+  },
+  {
+    "id": 10,
+    "name": "Haryana",
+    "region": "North",
+    "description": "Known for sports culture, vibrant folk traditions and agriculture.",
+    "attractions": [
+      { "id": 101, "name": "Kurukshetra", "location": "Kurukshetra", "image": "/images/attractions/kurukshetra.jpg" },
+      { "id": 102, "name": "Sultanpur Bird Sanctuary", "location": "Gurgaon", "image": "/images/attractions/sultanpur.jpg" }
+    ],
+    "traditionalAttire": "Dhoti, Ghagra",
+    "music": "Ragini",
+    "dance": "Saang, Dhamal"
+  },
+  {
+    "id": 11,
+    "name": "Madhya Pradesh",
+    "region": "Central",
+    "description": "Known as the Heart of India with wildlife and ancient temples.",
+    "attractions": [
+      { "id": 111, "name": "Khajuraho Temples", "location": "Khajuraho", "image": "/images/attractions/khajuraho.jpg" },
+      { "id": 112, "name": "Bandhavgarh National Park", "location": "Umaria", "image": "/images/attractions/bandhavgarh.jpg" }
+    ],
+    "traditionalAttire": "Saree, Lehenga, Dhoti",
+    "music": "Folk Tribal Music",
+    "dance": "Gaur Dance, Saila"
+  },
+  {
+    "id": 12,
+    "name": "Bihar",
+    "region": "East",
+    "description": "Known for ancient universities, Buddhist heritage and festivals.",
+    "attractions": [
+      { "id": 121, "name": "Mahabodhi Temple", "location": "Bodh Gaya", "image": "/images/attractions/mahabodhi.jpg" },
+      { "id": 122, "name": "Nalanda University Ruins", "location": "Nalanda", "image": "/images/attractions/nalanda.jpg" }
+    ],
+    "traditionalAttire": "Dhoti, Saree",
+    "music": "Bhojpuri Folk",
+    "dance": "Jat-Jatin, Bidesia"
+  },
+  {
+    "id": 13,
+    "name": "West Bengal",
+    "region": "East",
+    "description": "Known for art, literature, and rich cultural traditions.",
+    "attractions": [
+      { "id": 131, "name": "Victoria Memorial", "location": "Kolkata", "image": "/images/attractions/victoria.jpg" },
+      { "id": 132, "name": "Sundarbans", "location": "South Bengal", "image": "/images/attractions/sundarbans.jpg" }
+    ],
+    "traditionalAttire": "Tant Saree, Dhoti",
+    "music": "Rabindra Sangeet",
+    "dance": "Gaudiya Nritya"
+  },
+  {
+    "id": 14,
+    "name": "Jharkhand",
+    "region": "East",
+    "description": "Known for waterfalls, forests, and tribal culture.",
+    "attractions": [
+      { "id": 141, "name": "Dassam Falls", "location": "Ranchi", "image": "/images/attractions/dassam.jpg" },
+      { "id": 142, "name": "Netarhat", "location": "Latehar", "image": "/images/attractions/netarhat.jpg" }
+    ],
+    "traditionalAttire": "Saree, Kurta",
+    "music": "Tribal Music",
+    "dance": "Chhau Dance"
+  },
+  {
+    "id": 15,
+    "name": "Chhattisgarh",
+    "region": "Central",
+    "description": "Land of forests, waterfalls, and tribal heritage.",
+    "attractions": [
+      { "id": 151, "name": "Chitrakoot Falls", "location": "Jagdalpur", "image": "/images/attractions/chitrakoot.jpg" },
+      { "id": 152, "name": "Barnawapara Sanctuary", "location": "Mahasamund", "image": "/images/attractions/barnawapara.jpg" }
+    ],
+    "traditionalAttire": "Lugda, Dhoti",
+    "music": "Panthi Music",
+    "dance": "Panthi, Raut Nacha"
+  },
+  {
+    "id": 16,
+    "name": "Assam",
+    "region": "Northeast",
+    "description": "Known for tea plantations, forests, and Bihu festival.",
+    "attractions": [
+      { "id": 161, "name": "Kaziranga National Park", "location": "Golaghat", "image": "/images/attractions/kaziranga.jpg" },
+      { "id": 162, "name": "Majuli Island", "location": "Brahmaputra River", "image": "/images/attractions/majuli.jpg" }
+    ],
+    "traditionalAttire": "Mekhela Chador",
+    "music": "Bihu Songs",
+    "dance": "Bihu Dance"
+  },
+  {
+    "id": 17,
+    "name": "Arunachal Pradesh",
+    "region": "Northeast",
+    "description": "Land of mountains, monasteries, and tribal culture.",
+    "attractions": [
+      { "id": 171, "name": "Tawang Monastery", "location": "Tawang", "image": "/images/attractions/tawang.jpg" },
+      { "id": 172, "name": "Ziro Valley", "location": "Ziro", "image": "/images/attractions/ziro.jpg" }
+    ],
+    "traditionalAttire": "Tribal Robes",
+    "music": "Tribal Folk",
+    "dance": "Ponung, Lion Dance"
+  },
+  {
+    "id": 18,
+    "name": "Nagaland",
+    "region": "Northeast",
+    "description": "Known for tribal culture and the Hornbill Festival.",
+    "attractions": [
+      { "id": 181, "name": "Kohima War Cemetery", "location": "Kohima", "image": "/images/attractions/kohima.jpg" },
+      { "id": 182, "name": "Dzükou Valley", "location": "Kohima", "image": "/images/attractions/dzukou.jpg" }
+    ],
+    "traditionalAttire": "Tribal Shawls",
+    "music": "Naga Folk",
+    "dance": "War Dance"
+  },
+  {
+    "id": 19,
+    "name": "Manipur",
+    "region": "Northeast",
+    "description": "Known for classical dance and scenic beauty.",
+    "attractions": [
+      { "id": 191, "name": "Loktak Lake", "location": "Bishnupur", "image": "/images/attractions/loktak.jpg" },
+      { "id": 192, "name": "Kangla Fort", "location": "Imphal", "image": "/images/attractions/kangla.jpg" }
+    ],
+    "traditionalAttire": "Phanek, Innaphi",
+    "music": "Folk Music",
+    "dance": "Manipuri Dance"
+  },
+  {
+    "id": 20,
+    "name": "Mizoram",
+    "region": "Northeast",
+    "description": "Land of hills, valleys, and Mizo traditions.",
+    "attractions": [
+      { "id": 201, "name": "Solomon's Temple", "location": "Aizawl", "image": "/images/attractions/solomon.jpg" },
+      { "id": 202, "name": "Vantawng Falls", "location": "Serchhip", "image": "/images/attractions/vantawng.jpg" }
+    ],
+    "traditionalAttire": "Puan",
+    "music": "Mizo Folk",
+    "dance": "Cheraw Dance"
+  },
+  {
+    "id": 21,
+    "name": "Tripura",
+    "region": "Northeast",
+    "description": "Known for temples, hills, and tribal traditions.",
+    "attractions": [
+      { "id": 211, "name": "Ujjayanta Palace", "location": "Agartala", "image": "/images/attractions/ujjayanta.jpg" },
+      { "id": 212, "name": "Neermahal", "location": "Melaghar", "image": "/images/attractions/neermahal.jpg" }
+    ],
+    "traditionalAttire": "Rignai, Rikutu",
+    "music": "Tribal Folk",
+    "dance": "Hojagiri Dance"
+  },
+  {
+    "id": 22,
+    "name": "Meghalaya",
+    "region": "Northeast",
+    "description": "Land of clouds, waterfalls, and caves.",
+    "attractions": [
+      { "id": 221, "name": "Living Root Bridges", "location": "Cherrapunji", "image": "/images/attractions/rootbridge.jpg" },
+      { "id": 222, "name": "Umiam Lake", "location": "Shillong", "image": "/images/attractions/umiam.jpg" }
+    ],
+    "traditionalAttire": "Jainsem",
+    "music": "Meghalayan Folk",
+    "dance": "Nongkrem Dance"
+  },
+  {
+    "id": 23,
+    "name": "Sikkim",
+    "region": "Northeast",
+    "description": "Land of monasteries, mountains, and cultural diversity.",
+    "attractions": [
+      { "id": 231, "name": "Tsomgo Lake", "location": "Gangtok", "image": "/images/attractions/tsomgo.jpg" },
+      { "id": 232, "name": "Rumtek Monastery", "location": "Gangtok", "image": "/images/attractions/rumtek.jpg" }
+    ],
+    "traditionalAttire": "Bakhu",
+    "music": "Lepcha Folk",
+    "dance": "Cham Dance"
+  },
+  {
+    "id": 24,
+    "name": "Goa",
+    "region": "West",
+    "description": "Land of beaches, churches, and Indo-Portuguese culture.",
+    "attractions": [
+      { "id": 241, "name": "Baga Beach", "location": "North Goa", "image": "/images/attractions/baga.jpg" },
+      { "id": 242, "name": "Basilica of Bom Jesus", "location": "Old Goa", "image": "/images/attractions/bomjesus.jpg" }
+    ],
+    "traditionalAttire": "Pano Bhaju, Feni Attire",
+    "music": "Konkani Music",
+    "dance": "Dekhni Dance"
+  },
+  {
+    "id": 25,
+    "name": "Uttarakhand",
+    "region": "North",
+    "description": "Land of mountains, pilgrimages, and scenic beauty.",
+    "attractions": [
+      { "id": 251, "name": "Kedarnath Temple", "location": "Rudraprayag", "image": "/images/attractions/kedarnath.jpg" },
+      { "id": 252, "name": "Valley of Flowers", "location": "Chamoli", "image": "/images/attractions/vof.jpg" }
+    ],
+    "traditionalAttire": "Ghagra, Dhoti",
+    "music": "Garhwali Folk",
+    "dance": "Pandav Nritya"
+  },
+  {
+    "id": 26,
+    "name": "Himachal Pradesh",
+    "region": "North",
+    "description": "Known for mountains, apple orchards, and adventure tourism.",
+    "attractions": [
+      { "id": 261, "name": "Shimla Ridge", "location": "Shimla", "image": "/images/attractions/shimla.jpg" },
+      { "id": 262, "name": "Rohtang Pass", "location": "Manali", "image": "/images/attractions/rohtang.jpg" }
+    ],
+    "traditionalAttire": "Kullu Shawls, Dhoti",
+    "music": "Himachali Folk",
+    "dance": "Nati Dance"
+  },
+  {
+    "id": 27,
+    "name": "Telangana",
+    "region": "South",
+    "description": "Known for Charminar, pearls, and Deccan culture.",
+    "attractions": [
+      { "id": 271, "name": "Charminar", "location": "Hyderabad", "image": "/images/attractions/charminar.jpg" },
+      { "id": 272, "name": "Ramoji Film City", "location": "Hyderabad", "image": "/images/attractions/ramoji.jpg" }
+    ],
+    "traditionalAttire": "Saree, Sherwani",
+    "music": "Hyderabadi Folk",
+    "dance": "Perini Dance"
+  },
+  {
+    "id": 28,
+    "name": "Andhra Pradesh",
+    "region": "South",
+    "description": "Known for temples, beaches, and classical dance.",
+    "attractions": [
+      { "id": 281, "name": "Tirumala Temple", "location": "Tirupati", "image": "/images/attractions/tirumala.jpg" },
+      { "id": 282, "name": "Araku Valley", "location": "Visakhapatnam", "image": "/images/attractions/araku.jpg" }
+    ],
+    "traditionalAttire": "Saree, Dhoti",
+    "music": "Carnatic Music",
+    "dance": "Kuchipudi"
+  },
+  {
+    "id": 29,
+    "name": "Delhi",
+    "region": "North",
+    "description": "Capital of India, known for monuments, culture, and markets.",
+    "attractions": [
+      { "id": 291, "name": "Red Fort", "location": "Delhi", "image": "/images/attractions/redfort.jpg" },
+      { "id": 292, "name": "India Gate", "location": "Delhi", "image": "/images/attractions/indiagate.jpg" }
+    ],
+    "traditionalAttire": "Kurta, Jeans, Saree",
+    "music": "North Indian Classical",
+    "dance": "Kathak"
+  },
+  {
+    "id": 30,
+    "name": "Jammu & Kashmir",
+    "region": "North",
+    "description": "Paradise on Earth with mountains, lakes and gardens.",
+    "attractions": [
+      { "id": 301, "name": "Dal Lake", "location": "Srinagar", "image": "/images/attractions/dallake.jpg" },
+      { "id": 302, "name": "Gulmarg", "location": "Baramulla", "image": "/images/attractions/gulmarg.jpg" }
+    ],
+    "traditionalAttire": "Pheran",
+    "music": "Sufi Music",
+    "dance": "Rouf"
+  },
+  {
+    "id": 31,
+    "name": "Ladakh",
+    "region": "North",
+    "description": "Known for mountains, monasteries, and Tibetan culture.",
+    "attractions": [
+      { "id": 311, "name": "Pangong Lake", "location": "Leh", "image": "/images/attractions/pangong.jpg" },
+      { "id": 312, "name": "Thiksey Monastery", "location": "Leh", "image": "/images/attractions/thiksey.jpg" }
+    ],
+    "traditionalAttire": "Goncha",
+    "music": "Ladakhi Folk",
+    "dance": "Cham Dance"
+  },
+  {
+    "id": 32,
+    "name": "Puducherry",
+    "region": "South",
+    "description": "Known for French architecture, beaches and spiritual retreats.",
+    "attractions": [
+      { "id": 321, "name": "Promenade Beach", "location": "Pondicherry", "image": "/images/attractions/promenade.jpg" },
+      { "id": 322, "name": "Auroville", "location": "Pondicherry", "image": "/images/attractions/auroville.jpg" }
+    ],
+    "traditionalAttire": "Saree, Dhoti",
+    "music": "Carnatic, Folk",
+    "dance": "Bharatanatyam"
+  },
+  {
+    "id": 33,
+    "name": "Andaman & Nicobar Islands",
+    "region": "South",
+    "description": "Island paradise with beaches, marine life, and forests.",
+    "attractions": [
+      { "id": 331, "name": "Radhanagar Beach", "location": "Havelock", "image": "/images/attractions/radhanagar.jpg" },
+      { "id": 332, "name": "Cellular Jail", "location": "Port Blair", "image": "/images/attractions/cellularjail.jpg" }
+    ],
+    "traditionalAttire": "Light cotton wear",
+    "music": "Island Folk Music",
+    "dance": "Nicobari Dance"
+  },
+  {
+    "id": 34,
+    "name": "Lakshadweep",
+    "region": "South",
+    "description": "Known for blue lagoons, coral reefs, and island culture.",
+    "attractions": [
+      { "id": 341, "name": "Agatti Island", "location": "Agatti", "image": "/images/attractions/agatti.jpg" },
+      { "id": 342, "name": "Bangaram Island", "location": "Bangaram", "image": "/images/attractions/bangaram.jpg" }
+    ],
+    "traditionalAttire": "Light cotton wear",
+    "music": "Folk Music",
+    "dance": "Lava Dance"
+  },
+  {
+    "id": 35,
+    "name": "Chandigarh",
+    "region": "North",
+    "description": "Planned city known for gardens, museums, and architecture.",
+    "attractions": [
+      { "id": 351, "name": "Rock Garden", "location": "Chandigarh", "image": "/images/attractions/rockgarden.jpg" },
+      { "id": 352, "name": "Sukhna Lake", "location": "Chandigarh", "image": "/images/attractions/sukhna.jpg" }
+    ],
+    "traditionalAttire": "Punjabi Suits",
+    "music": "Punjabi Folk",
+    "dance": "Bhangra"
+  },
+  {
+    "id": 36,
+    "name": "Dadra & Nagar Haveli and Daman & Diu",
+    "region": "West",
+    "description": "Known for beaches, forts, and tribal culture.",
+    "attractions": [
+      { "id": 361, "name": "Diu Fort", "location": "Diu", "image": "/images/attractions/diufort.jpg" },
+      { "id": 362, "name": "Vanganga Lake", "location": "Silvassa", "image": "/images/attractions/vanganga.jpg" }
+    ],
+    "traditionalAttire": "Cotton wear, Dhoti",
+    "music": "Tribal Folk",
+    "dance": "Tarantula Dance"
+  }
+]

@@ -1,0 +1,610 @@
+[
+  {
+    "id": 301,
+    "name": "Rajveer Singh",
+    "state": "Rajasthan",
+    "festivalSpecialization": ["Diwali", "Gangaur"],
+    "expertise": "Traditional attire assistance, fort tours, folk culture",
+    "rating": 4.8,
+    "phone": "9870001111",
+    "image": "/images/guides/rajveer.jpg"
+  },
+  {
+    "id": 302,
+    "name": "Pooja Rathore",
+    "state": "Rajasthan",
+    "festivalSpecialization": ["Teej", "Pushkar Fair"],
+    "expertise": "Rajasthani attire, local festivals, heritage walks",
+    "rating": 4.7,
+    "phone": "9870001112",
+    "image": "/images/guides/pooja_rathore.jpg"
+  },
+
+  {
+    "id": 303,
+    "name": "Anjali Nair",
+    "state": "Kerala",
+    "festivalSpecialization": ["Onam", "Vishu"],
+    "expertise": "Temple rituals, Kathakali basics, traditional attire",
+    "rating": 4.7,
+    "phone": "7774442222",
+    "image": "/images/guides/anjali.jpg"
+  },
+  {
+    "id": 304,
+    "name": "Sudeep Menon",
+    "state": "Kerala",
+    "festivalSpecialization": ["Theyyam", "Boat Race"],
+    "expertise": "Backwater tours, cultural experiences, spices knowledge",
+    "rating": 4.8,
+    "phone": "7774442223",
+    "image": "/images/guides/sudeep.jpg"
+  },
+
+  {
+    "id": 305,
+    "name": "Amitabh Das",
+    "state": "West Bengal",
+    "festivalSpecialization": ["Durga Puja", "Poila Boishakh"],
+    "expertise": "Street food, cultural tours, festival pandal exploration",
+    "rating": 4.7,
+    "phone": "9988776655",
+    "image": "/images/guides/amitabh.jpg"
+  },
+  {
+    "id": 306,
+    "name": "Madhumita Sen",
+    "state": "West Bengal",
+    "festivalSpecialization": ["Kali Puja", "Saraswati Puja"],
+    "expertise": "Bengali attire, heritage walks, temple tours",
+    "rating": 4.8,
+    "phone": "9988776656",
+    "image": "/images/guides/madhumita.jpg"
+  },
+
+  {
+    "id": 307,
+    "name": "Karan Mahajan",
+    "state": "Punjab",
+    "festivalSpecialization": ["Baisakhi", "Lohri"],
+    "expertise": "Farm tours, bhangra workshop, Punjabi culture",
+    "rating": 4.9,
+    "phone": "9012345671",
+    "image": "/images/guides/karan_mahajan.jpg"
+  },
+  {
+    "id": 308,
+    "name": "Simran Kaur",
+    "state": "Punjab",
+    "festivalSpecialization": ["Gurpurab", "Maghi"],
+    "expertise": "Golden Temple tours, food walks, attire guidance",
+    "rating": 4.8,
+    "phone": "9012345672",
+    "image": "/images/guides/simran_kaur.jpg"
+  },
+
+  {
+    "id": 309,
+    "name": "Harsh Gupta",
+    "state": "Uttar Pradesh",
+    "festivalSpecialization": ["Holi", "Kumbh Mela"],
+    "expertise": "Varanasi ghats tour, temples, local rituals",
+    "rating": 4.8,
+    "phone": "9090909090",
+    "image": "/images/guides/harsh_gupta.jpg"
+  },
+  {
+    "id": 310,
+    "name": "Swati Sharma",
+    "state": "Uttar Pradesh",
+    "festivalSpecialization": ["Diwali Ayodhya", "Ram Navami"],
+    "expertise": "Ayodhya Ram Mandir tours, cultural experiences",
+    "rating": 4.7,
+    "phone": "9090909091",
+    "image": "/images/guides/swati_sharma.jpg"
+  },
+
+  {
+    "id": 311,
+    "name": "Rohan Shetty",
+    "state": "Maharashtra",
+    "festivalSpecialization": ["Ganesh Chaturthi", "Gudi Padwa"],
+    "expertise": "Mumbai city tours, historical walks, food exploration",
+    "rating": 4.8,
+    "phone": "8881112221",
+    "image": "/images/guides/rohan_shetty.jpg"
+  },
+  {
+    "id": 312,
+    "name": "Meera Patil",
+    "state": "Maharashtra",
+    "festivalSpecialization": ["Navratri", "Ellora Festival"],
+    "expertise": "Ajanta–Ellora tours, Maharashtrian culture",
+    "rating": 4.7,
+    "phone": "8881112222",
+    "image": "/images/guides/meera_patil.jpg"
+  },
+
+  {
+    "id": 313,
+    "name": "Arjun Reddy",
+    "state": "Telangana",
+    "festivalSpecialization": ["Bathukamma", "Bonalu"],
+    "expertise": "Local attire, Hyderabad culture, Charminar tours",
+    "rating": 4.8,
+    "phone": "9990001111",
+    "image": "/images/guides/arjun_reddy.jpg"
+  },
+  {
+    "id": 314,
+    "name": "Sravani Rao",
+    "state": "Telangana",
+    "festivalSpecialization": ["Deccan Festival", "Ramzan in Hyderabad"],
+    "expertise": "Food tours, pearl market guidance",
+    "rating": 4.7,
+    "phone": "9990001112",
+    "image": "/images/guides/sravani_rao.jpg"
+  },
+
+  {
+    "id": 315,
+    "name": "Vijay Kumar",
+    "state": "Tamil Nadu",
+    "festivalSpecialization": ["Pongal", "Karthigai Deepam"],
+    "expertise": "Temple architecture, classical dance insights",
+    "rating": 4.8,
+    "phone": "9099998881",
+    "image": "/images/guides/vijay_kumar.jpg"
+  },
+  {
+    "id": 316,
+    "name": "Divya Krishnan",
+    "state": "Tamil Nadu",
+    "festivalSpecialization": ["Chithirai Festival", "Navaratri"],
+    "expertise": "Classical music tours, attire & rituals",
+    "rating": 4.7,
+    "phone": "9099998882",
+    "image": "/images/guides/divya_krishnan.jpg"
+  },
+
+  {
+    "id": 317,
+    "name": "Naveen Gowda",
+    "state": "Karnataka",
+    "festivalSpecialization": ["Dasara", "Ugadi"],
+    "expertise": "Mysore Palace tours, food trails",
+    "rating": 4.8,
+    "phone": "9001112233",
+    "image": "/images/guides/naveen_gowda.jpg"
+  },
+  {
+    "id": 318,
+    "name": "Pavitra Shetty",
+    "state": "Karnataka",
+    "festivalSpecialization": ["Kambala", "Karaga"],
+    "expertise": "Coastal culture, local food guidance",
+    "rating": 4.7,
+    "phone": "9001112234",
+    "image": "/images/guides/pavitra_shetty.jpg"
+  },
+
+  {
+    "id": 319,
+    "name": "Sandeep Thakur",
+    "state": "Himachal Pradesh",
+    "festivalSpecialization": ["Dussehra Kullu", "Losar"],
+    "expertise": "Mountain culture, local treks, temples",
+    "rating": 4.8,
+    "phone": "8080808081",
+    "image": "/images/guides/sandeep_thakur.jpg"
+  },
+  {
+    "id": 320,
+    "name": "Neha Chauhan",
+    "state": "Himachal Pradesh",
+    "festivalSpecialization": ["Phagli", "Baisakhi"],
+    "expertise": "Village tours, local craft exploration",
+    "rating": 4.7,
+    "phone": "8080808082",
+    "image": "/images/guides/neha_chauhan.jpg"
+  },
+
+  {
+    "id": 321,
+    "name": "Farhan Mir",
+    "state": "Jammu & Kashmir",
+    "festivalSpecialization": ["Tulip Festival", "Shikara Festival"],
+    "expertise": "Local culture, attire, nature tours",
+    "rating": 4.9,
+    "phone": "7007007001",
+    "image": "/images/guides/farhan_mir.jpg"
+  },
+  {
+    "id": 322,
+    "name": "Aamna Jan",
+    "state": "Jammu & Kashmir",
+    "festivalSpecialization": ["Eid", "Baisakhi"],
+    "expertise": "Food tours, handicraft guidance",
+    "rating": 4.8,
+    "phone": "7007007002",
+    "image": "/images/guides/aamna_jan.jpg"
+  },
+
+  {
+    "id": 323,
+    "name": "Rahul Shukla",
+    "state": "Madhya Pradesh",
+    "festivalSpecialization": ["Khajuraho Dance Festival", "Diwali"],
+    "expertise": "Monuments, wildlife tours, tribal culture",
+    "rating": 4.8,
+    "phone": "9222211121",
+    "image": "/images/guides/rahul_shukla.jpg"
+  },
+  {
+    "id": 324,
+    "name": "Anu Verma",
+    "state": "Madhya Pradesh",
+    "festivalSpecialization": ["Holi", "Tansen Festival"],
+    "expertise": "Music tours, heritage walks",
+    "rating": 4.7,
+    "phone": "9222211122",
+    "image": "/images/guides/anu_verma.jpg"
+  },
+
+  {
+    "id": 325,
+    "name": "Partho Roy",
+    "state": "Assam",
+    "festivalSpecialization": ["Bihu", "Ambubachi Mela"],
+    "expertise": "Tea garden tours, wildlife, local attire",
+    "rating": 4.8,
+    "phone": "9333001101",
+    "image": "/images/guides/partho_roy.jpg"
+  },
+  {
+    "id": 326,
+    "name": "Rita Deka",
+    "state": "Assam",
+    "festivalSpecialization": ["Baishagu Festival"],
+    "expertise": "Cultural tours, handloom guidance",
+    "rating": 4.7,
+    "phone": "9333001102",
+    "image": "/images/guides/rita_deka.jpg"
+  },
+
+  {
+    "id": 327,
+    "name": "Birendra Singh",
+    "state": "Uttarakhand",
+    "festivalSpecialization": ["Kumbh Haridwar", "Phool Dei"],
+    "expertise": "Trekking, temples, villages",
+    "rating": 4.8,
+    "phone": "9555511111",
+    "image": "/images/guides/birendra_singh.jpg"
+  },
+  {
+    "id": 328,
+    "name": "Kajal Rawat",
+    "state": "Uttarakhand",
+    "festivalSpecialization": ["Harela", "Magh Mela"],
+    "expertise": "Nature trails, local food & culture",
+    "rating": 4.7,
+    "phone": "9555511112",
+    "image": "/images/guides/kajal_rawat.jpg"
+  },
+
+  {
+    "id": 329,
+    "name": "Lalhmuanpuia",
+    "state": "Mizoram",
+    "festivalSpecialization": ["Chapchar Kut", "Pawl Kut"],
+    "expertise": "Tribal culture, village lifestyle tours",
+    "rating": 4.8,
+    "phone": "9666600011",
+    "image": "/images/guides/lalh_mizo.jpg"
+  },
+  {
+    "id": 330,
+    "name": "Tanya Chhangte",
+    "state": "Mizoram",
+    "festivalSpecialization": ["Mim Kut"],
+    "expertise": "Handloom traditions, cultural insights",
+    "rating": 4.7,
+    "phone": "9666600012",
+    "image": "/images/guides/tanya_chhangte.jpg"
+  },
+
+  {
+    "id": 331,
+    "name": "Lungtu Naro",
+    "state": "Nagaland",
+    "festivalSpecialization": ["Hornbill Festival"],
+    "expertise": "Tribal culture, local music",
+    "rating": 4.9,
+    "phone": "9777700001",
+    "image": "/images/guides/lungtu_naro.jpg"
+  },
+  {
+    "id": 332,
+    "name": "Atem Longchar",
+    "state": "Nagaland",
+    "festivalSpecialization": ["Aoling Festival"],
+    "expertise": "Village tours, customs, attire guidance",
+    "rating": 4.8,
+    "phone": "9777700002",
+    "image": "/images/guides/atem_longchar.jpg"
+  },
+
+  {
+    "id": 333,
+    "name": "Andrew Marak",
+    "state": "Meghalaya",
+    "festivalSpecialization": ["Wangala", "Behdienkhlam"],
+    "expertise": "Caves, waterfalls, tribal culture",
+    "rating": 4.8,
+    "phone": "9777701111",
+    "image": "/images/guides/andrew_marak.jpg"
+  },
+  {
+    "id": 334,
+    "name": "Meri Khongjee",
+    "state": "Meghalaya",
+    "festivalSpecialization": ["Nongkrem Dance"],
+    "expertise": "Living root bridge tours, local crafts",
+    "rating": 4.7,
+    "phone": "9777701112",
+    "image": "/images/guides/meri_khongjee.jpg"
+  },
+
+  {
+    "id": 335,
+    "name": "Kritika Bora",
+    "state": "Arunachal Pradesh",
+    "festivalSpecialization": ["Losar", "Solung"],
+    "expertise": "Monastery tours, tribal culture",
+    "rating": 4.8,
+    "phone": "9777702221",
+    "image": "/images/guides/kritika_bora.jpg"
+  },
+  {
+    "id": 336,
+    "name": "Tsering Dorjee",
+    "state": "Arunachal Pradesh",
+    "festivalSpecialization": ["Reh", "Dree"],
+    "expertise": "Mountain villages, cultural storytelling",
+    "rating": 4.7,
+    "phone": "9777702222",
+    "image": "/images/guides/tsering_dorjee.jpg"
+  },
+
+  {
+    "id": 337,
+    "name": "Prakash Modi",
+    "state": "Gujarat",
+    "festivalSpecialization": ["Navratri", "Rann Utsav"],
+    "expertise": "White desert tours, Gujarati attire",
+    "rating": 4.8,
+    "phone": "9556677881",
+    "image": "/images/guides/prakash_modi.jpg"
+  },
+  {
+    "id": 338,
+    "name": "Priyal Joshi",
+    "state": "Gujarat",
+    "festivalSpecialization": ["Uttarayan"],
+    "expertise": "Heritage walks, local food, crafts",
+    "rating": 4.7,
+    "phone": "9556677882",
+    "image": "/images/guides/priyal_joshi.jpg"
+  },
+
+  {
+    "id": 339,
+    "name": "Sukhdev Rana",
+    "state": "Haryana",
+    "festivalSpecialization": ["Teej", "Holi"],
+    "expertise": "Village tours, local cuisine",
+    "rating": 4.7,
+    "phone": "9001234501",
+    "image": "/images/guides/sukhdev_rana.jpg"
+  },
+  {
+    "id": 340,
+    "name": "Rekha Malik",
+    "state": "Haryana",
+    "festivalSpecialization": ["Guga Navami", "Basanta Panchami"],
+    "expertise": "Rural culture, folk traditions",
+    "rating": 4.8,
+    "phone": "9001234502",
+    "image": "/images/guides/rekha_malik.jpg"
+  },
+
+  {
+    "id": 341,
+    "name": "Amrita Singh",
+    "state": "Bihar",
+    "festivalSpecialization": ["Chhath Puja", "Sama Chakeva"],
+    "expertise": "Religious rituals, Mithila art",
+    "rating": 4.8,
+    "phone": "9123456701",
+    "image": "/images/guides/amrita_singh.jpg"
+  },
+  {
+    "id": 342,
+    "name": "Vikas Jha",
+    "state": "Bihar",
+    "festivalSpecialization": ["Holi", "Basant Panchami"],
+    "expertise": "Historical tours, local culture",
+    "rating": 4.7,
+    "phone": "9123456702",
+    "image": "/images/guides/vikas_jha.jpg"
+  },
+
+  {
+    "id": 343,
+    "name": "Joydeep Das",
+    "state": "Tripura",
+    "festivalSpecialization": ["Kharchi Puja", "Durga Puja"],
+    "expertise": "Local markets, temples, culture",
+    "rating": 4.7,
+    "phone": "9333445566",
+    "image": "/images/guides/joydeep_das.jpg"
+  },
+  {
+    "id": 344,
+    "name": "Riya Debbarma",
+    "state": "Tripura",
+    "festivalSpecialization": ["Garia Puja"],
+    "expertise": "Tribal culture, attire, heritage areas",
+    "rating": 4.8,
+    "phone": "9333445567",
+    "image": "/images/guides/riya_debbarma.jpg"
+  },
+
+  {
+    "id": 345,
+    "name": "Ganesh Sahu",
+    "state": "Odisha",
+    "festivalSpecialization": ["Rath Yatra", "Durga Puja"],
+    "expertise": "Temple tours, beaches, culture",
+    "rating": 4.8,
+    "phone": "9445566771",
+    "image": "/images/guides/ganesh_sahu.jpg"
+  },
+  {
+    "id": 346,
+    "name": "Kalyani Patra",
+    "state": "Odisha",
+    "festivalSpecialization": ["Konark Festival"],
+    "expertise": "Dance, temples, handicrafts",
+    "rating": 4.7,
+    "phone": "9445566772",
+    "image": "/images/guides/kalyani_patra.jpg"
+  },
+
+  {
+    "id": 347,
+    "name": "Mahesh Pillai",
+    "state": "Goa",
+    "festivalSpecialization": ["Carnival", "Shigmo"],
+    "expertise": "Beach tours, Portuguese heritage",
+    "rating": 4.8,
+    "phone": "9112223344",
+    "image": "/images/guides/mahesh_pillai.jpg"
+  },
+  {
+    "id": 348,
+    "name": "Sana Fernandes",
+    "state": "Goa",
+    "festivalSpecialization": ["Feast of St. Francis Xavier"],
+    "expertise": "Church tours, Indo-Portuguese culture",
+    "rating": 4.7,
+    "phone": "9112223345",
+    "image": "/images/guides/sana_fernandes.jpg"
+  },
+
+  {
+    "id": 349,
+    "name": "Reuben D'Souza",
+    "state": "Daman & Diu",
+    "festivalSpecialization": ["Bonderam"],
+    "expertise": "Beaches, churches, cultural walks",
+    "rating": 4.7,
+    "phone": "9555533331",
+    "image": "/images/guides/reuben_dsouza.jpg"
+  },
+  {
+    "id": 350,
+    "name": "Naina Patel",
+    "state": "Daman & Diu",
+    "festivalSpecialization": ["Navratri"],
+    "expertise": "Local attire, cultural events",
+    "rating": 4.7,
+    "phone": "9555533332",
+    "image": "/images/guides/naina_patel.jpg"
+  },
+
+  {
+    "id": 351,
+    "name": "Vishal Bansal",
+    "state": "Delhi",
+    "festivalSpecialization": ["Diwali", "Republic Day Parade"],
+    "expertise": "Heritage walks, museum tours",
+    "rating": 4.8,
+    "phone": "9991112221",
+    "image": "/images/guides/vishal_bansal.jpg"
+  },
+  {
+    "id": 352,
+    "name": "Aisha Khan",
+    "state": "Delhi",
+    "festivalSpecialization": ["Eid", "Holi"],
+    "expertise": "Food walks, monuments, culture",
+    "rating": 4.7,
+    "phone": "9991112222",
+    "image": "/images/guides/aisha_khan.jpg"
+  },
+
+  {
+    "id": 353,
+    "name": "Samuel Jacob",
+    "state": "Puducherry",
+    "festivalSpecialization": ["Bastille Day Parade"],
+    "expertise": "Beach walks, French colony tours",
+    "rating": 4.8,
+    "phone": "9007778881",
+    "image": "/images/guides/samuel_jacob.jpg"
+  },
+  {
+    "id": 354,
+    "name": "Claire D'Silva",
+    "state": "Puducherry",
+    "festivalSpecialization": ["Pongal", "French Festivals"],
+    "expertise": "Food tours, cultural walks",
+    "rating": 4.7,
+    "phone": "9007778882",
+    "image": "/images/guides/claire_dsilva.jpg"
+  },
+
+  {
+    "id": 355,
+    "name": "Abdul Latif",
+    "state": "Lakshadweep",
+    "festivalSpecialization": ["Eid", "Beach Festival"],
+    "expertise": "Marine tours, island life",
+    "rating": 4.8,
+    "phone": "977889991",
+    "image": "/images/guides/abdul_latif.jpg"
+  },
+  {
+    "id": 356,
+    "name": "Zoya Kareem",
+    "state": "Lakshadweep",
+    "festivalSpecialization": ["Milad-un-Nabi"],
+    "expertise": "Coral island tours, culture",
+    "rating": 4.7,
+    "phone": "977889992",
+    "image": "/images/guides/zoya_kareem.jpg"
+  },
+
+  {
+    "id": 357,
+    "name": "Selvam Peter",
+    "state": "Andaman & Nicobar",
+    "festivalSpecialization": ["Island Tourism Festival"],
+    "expertise": "Beaches, water sports, tribes awareness",
+    "rating": 4.8,
+    "phone": "9552244991",
+    "image": "/images/guides/selvam_peter.jpg"
+  },
+  {
+    "id": 358,
+    "name": "Maria Joseph",
+    "state": "Andaman & Nicobar",
+    "festivalSpecialization": ["Culture Festival"],
+    "expertise": "History, marine life, local traditions",
+    "rating": 4.7,
+    "phone": "9552244992",
+    "image": "/images/guides/maria_joseph.jpg"
+  }
+]

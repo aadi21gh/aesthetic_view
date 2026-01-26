@@ -1,0 +1,651 @@
+[
+  {
+    "id": 1,
+    "name": "Diwali",
+    "state": "All India",
+    "description": "Festival of lights symbolizing the victory of light over darkness.",
+    "month": "October–November",
+    "attire": "Traditional Indian attire such as Kurta, Saree, Lehenga",
+    "location": { "lat": 28.6139, "lng": 77.2090 },
+    "images": [
+      "/images/festivals/diwali1.jpg",
+      "/images/festivals/diwali2.jpg"
+    ]
+  },
+  {
+  "id": 2,
+  "name": "Dussehra",
+  "state": "All India",
+  "description": "Festival celebrating the victory of Lord Rama over Ravana, marked by Ramlila plays and burning of effigies.",
+  "month": "September–October",
+  "attire": "Traditional Indian festive attire",
+  "location": { "lat": 28.6139, "lng": 77.2090 },
+  "images": [
+    "/images/festivals/dussehra1.jpg",
+    "/images/festivals/dussehra2.jpg"
+  ]
+  },
+  {
+    "id": 3,
+    "name": "Holi",
+    "state": "All India",
+    "description": "Festival of colors celebrating the arrival of spring and the victory of good over evil.",
+    "month": "March",
+    "attire": "White clothes like Kurta-Pajama or Saree",
+    "location": { "lat": 26.9124, "lng": 75.7873 },
+    "images": [
+      "/images/festivals/holi1.jpg",
+      "/images/festivals/holi2.jpg"
+    ]
+  },
+  {
+  "id": 4,
+  "name": "Janmashtami",
+  "state": "All India",
+  "description": "Birth of Lord Krishna celebrated with fasting, devotional singing, Dahi-Handi, and midnight rituals.",
+  "month": "August–September",
+  "attire": "Traditional Indian wear",
+  "location": { "lat": 27.5589, "lng": 77.6721 },
+  "images": ["/images/festivals/janmashtami1.jpg",
+             "/images/festivals/janmashtami2.jpg"
+           ]
+  },
+  {
+  "id": 5,
+  "name": "Christmas",
+  "state": "All India",
+  "description": "Celebration of the birth of Jesus Christ with decorations, prayers and festive joy.",
+  "month": "December",
+  "attire": "Red & white festive wear",
+  "location": { "lat": 19.0759, "lng": 72.8777 },
+  "images": [
+      "/images/festivals/christmas1.jpg",
+      "/images/festivals/christmas2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ganesh Chaturthi",
+    "state": "Maharashtra",
+    "description": "Celebration of Lord Ganesha’s birth with grand idol installations and processions.",
+    "month": "August–September",
+    "attire": "Traditional Maharashtrian attire",
+    "location": { "lat": 19.0760, "lng": 72.8777 },
+    "images": [
+      "/images/festivals/ganesh1.jpg",
+      "/images/festivals/ganesh2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Makar Sankranti",
+    "state": "All India",
+    "description": "Harvest festival marking the sun’s transition into Capricorn, famous for kite flying.",
+    "month": "January",
+    "attire": "Traditional Indian attire",
+    "location": { "lat": 23.0225, "lng": 72.5714 },
+    "images": [
+      "/images/festivals/sankranti1.jpg",
+      "/images/festivals/sankranti2.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Navratri",
+    "state": "Gujarat",
+    "description": "Nine-night festival celebrating Goddess Durga with Garba and Dandiya nights.",
+    "month": "September–October",
+    "attire": "Chaniya Choli for women, Kurta-Dhoti for men",
+    "location": { "lat": 23.0225, "lng": 72.5714 },
+    "images": [
+      "/images/festivals/navratri1.jpg",
+      "/images/festivals/navratri2.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pongal",
+    "state": "Tamil Nadu",
+    "description": "Harvest festival thanking the Sun God for agricultural abundance.",
+    "month": "January",
+    "attire": "Veshti for men, Saree for women",
+    "location": { "lat": 13.0827, "lng": 80.2707 },
+    "images": [
+      "/images/festivals/pongal1.jpg",
+      "/images/festivals/pongal2.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Baisakhi",
+    "state": "Punjab",
+    "description": "Harvest festival marking the Punjabi New Year and Sikh community celebrations.",
+    "month": "April",
+    "attire": "Punjabi suit, Turban for men",
+    "location": { "lat": 31.1471, "lng": 75.3412 },
+    "images": [
+      "/images/festivals/baisakhi1.jpg",
+      "/images/festivals/baisakhi2.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Durga Puja",
+    "state": "West Bengal",
+    "description": "Celebration of Goddess Durga's victory over Mahishasura with elaborate pandals and rituals.",
+    "month": "September–October",
+    "attire": "Traditional Bengali attire like Saree and Dhoti",
+    "location": { "lat": 22.5726, "lng": 88.3639 },
+    "images": [
+      "/images/festivals/durga1.jpg",
+      "/images/festivals/durga2.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Eid-ul-Fitr",
+    "state": "All India",
+    "description": "Celebrates the end of Ramadan with prayers, feasts, gifts and charity.",
+    "month": "April–May",
+    "attire": "Traditional attire such as Kurta, Salwar Kameez",
+    "location": { "lat": 28.7041, "lng": 77.1025 },
+    "images": [
+      "/images/festivals/eid1.jpg",
+      "/images/festivals/eid2.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Lohri",
+    "state": "Punjab",
+    "description": "Winter harvest festival celebrated with bonfires, traditional songs, and dance.",
+    "month": "January",
+    "attire": "Punjabi Kurta, Salwar Kameez, Phulkari Dupatta",
+    "location": { "lat": 31.6340, "lng": 74.8723 },
+    "images": [
+      "/images/festivals/lohri1.jpg",
+      "/images/festivals/lohri2.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Rath Yatra",
+    "state": "Odisha",
+    "description": "Grand chariot festival of Lord Jagannath celebrated in Puri with massive crowds.",
+    "month": "June–July",
+    "attire": "Traditional Odia attire",
+    "location": { "lat": 19.8135, "lng": 85.8312 },
+    "images": [
+      "/images/festivals/rathyatra1.jpg",
+      "/images/festivals/rathyatra2.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Onam",
+    "state": "Kerala",
+    "description": "Harvest festival celebrated with Pookalam, boat races and the grand Onam Sadhya feast.",
+    "month": "August–September",
+    "attire": "Kasavu Saree, Mundu",
+    "location": { "lat": 9.9312, "lng": 76.2673 },
+    "images": [
+      "/images/festivals/onam1.jpg",
+      "/images/festivals/onam2.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Hornbill Festival",
+    "state": "Nagaland",
+    "description": "Celebration of Naga culture with folk dances, crafts, food, and tribal performances.",
+    "month": "December",
+    "attire": "Traditional Naga tribal wear",
+    "location": { "lat": 25.6751, "lng": 94.1086 },
+    "images": [
+      "/images/festivals/hornbill1.jpg",
+      "/images/festivals/hornbill2.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Kumbh Mela",
+    "state": "Multiple States",
+    "description": "One of the largest spiritual gatherings in the world with ritual bathing in sacred rivers.",
+    "month": "Varies (Every 3 years)",
+    "attire": "Simple traditional Indian attire",
+    "location": { "lat": 25.4358, "lng": 81.8463 },
+    "images": [
+      "/images/festivals/kumbh1.jpg",
+      "/images/festivals/kumbh2.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Bihu",
+    "state": "Assam",
+    "description": "Cultural festival representing Assamese New Year with dance, music, and feasts.",
+    "month": "April",
+    "attire": "Mekhela Chador for women, Dhoti-Gamosa for men",
+    "location": { "lat": 26.2006, "lng": 92.9376 },
+    "images": [
+      "/images/festivals/bihu1.jpg",
+      "/images/festivals/bihu2.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Gudi Padwa",
+    "state": "Maharashtra",
+    "description": "Marks the Marathi New Year celebrated with Gudis on doorsteps and festive meals.",
+    "month": "March–April",
+    "attire": "Nauvari Saree, Kurta-Pajama",
+    "location": { "lat": 18.5204, "lng": 73.8567 },
+    "images": [
+      "/images/festivals/gudi1.jpg",
+      "/images/festivals/gudi2.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Chhath Puja",
+    "state": "Bihar",
+    "description": "Worship of the Sun God with offerings, fasting, and riverside rituals.",
+    "month": "October–November",
+    "attire": "Saree for women, Dhoti-Kurta for men",
+    "location": { "lat": 25.5941, "lng": 85.1376 },
+    "images": [
+      "/images/festivals/chhath1.jpg",
+      "/images/festivals/chhath2.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Hemis Festival",
+    "state": "Ladakh",
+    "description": "Buddhist monastery festival featuring masked dances and spiritual ceremonies.",
+    "month": "June–July",
+    "attire": "Ladakhi traditional attire",
+    "location": { "lat": 34.1664, "lng": 77.5848 },
+    "images": [
+      "/images/festivals/hemis1.jpg",
+      "/images/festivals/hemis2.jpg"
+    ]
+  },
+  {
+  "id": 22,
+  "name": "Raksha Bandhan",
+  "state": "All India",
+  "description": "Celebrates the bond of protection between brothers and sisters.",
+  "month": "August",
+  "attire": "Traditional festive wear",
+  "location": { "lat": 26.9124, "lng": 75.7873 },
+  "images": [
+      "/images/festivals/raksha1.jpg",
+      "/images/festivals/raksha2.jpg"
+    ]
+  },
+  {
+  "id": 23,
+  "name": "Raulane Festival",
+  "state": "Chhattisgarh",
+  "description": "The Raulane Festival is a vibrant tribal celebration marked by traditional dance, drum performances, nature rituals, and community feasts. Villagers gather to offer gratitude for forest abundance and pray for prosperity.",
+  "month": "November",
+  "attire": "Traditional Chhattisgarhi tribal attire with beads, feathers, and handwoven fabrics",
+  "location": { "lat": 21.2787, "lng": 81.8661 },
+  "images": [
+    "/images/festivals/raulane1.jpg",
+    "/images/festivals/raulane2.jpg"
+  ]
+  },
+  {
+  "id": 24,
+  "name": "Goa Carnival",
+  "state": "Goa",
+  "description": "Vibrant carnival with parades, costumes, samba music, and street celebrations.",
+  "month": "February",
+  "attire": "Colorful costumes or casual beachwear",
+  "location": { "lat": 15.2993, "lng": 74.1240 },
+  "images": [
+    "/images/festivals/goacarnival1.jpg",
+    "/images/festivals/goacarnival2.jpg"
+  ]
+  },
+  {
+    "id": 25,
+    "name": "Chapchar Kut",
+    "state": "Mizoram",
+    "description": "Spring festival celebrated with bamboo dance, songs, and vibrant cultural shows.",
+    "month": "March",
+    "attire": "Mizo traditional dress",
+    "location": { "lat": 23.7271, "lng": 92.7176 },
+    "images": [
+      "/images/festivals/chapchar1.jpg",
+      "/images/festivals/chapchar2.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Wangala Festival",
+    "state": "Meghalaya",
+    "description": "100-drum festival of the Garo tribe celebrating harvest and thanking the Sun God.",
+    "month": "November",
+    "attire": "Traditional Garo tribal attire",
+    "location": { "lat": 25.4670, "lng": 90.5610 },
+    "images": [
+      "/images/festivals/wangala1.jpg",
+      "/images/festivals/wangala2.jpg"
+    ]
+  },
+  {
+  "id": 27,
+  "name": "Ooty Summer Festival",
+  "state": "Tamil Nadu",
+  "description": "Beautiful hill festival with flower shows, fruit shows, boat races, and cultural competitions.",
+  "month": "May",
+  "attire": "Light casual clothing",
+  "location": { "lat": 11.4064, "lng": 76.6932 },
+  "images": [
+    "/images/festivals/ooty1.jpg",
+    "/images/festivals/ooty2.jpg"
+  ]
+  },
+  {
+  "id": 28,
+  "name": "Losoong",
+  "state": "Sikkim",
+  "description": "Sikkimese New Year festival featuring Cham dances, archery competitions and village feasts.",
+  "month": "December",
+  "attire": "Sikkimese traditional clothing",
+  "location": { "lat": 27.3389, "lng": 88.6065 },
+  "images": [
+    "/images/festivals/losoong1.jpg",
+    "/images/festivals/losoong2.jpg"
+  ]
+  },
+  {
+  "id": 29,
+  "name": "Bathukamma",
+  "state": "Telangana",
+  "description": "Floral festival where women create flower stacks and celebrate with songs and traditional dance.",
+  "month": "September–October",
+  "attire": "Saree, especially traditional Telangana styles",
+  "location": { "lat": 17.3850, "lng": 78.4867 },
+  "images": [
+    "/images/festivals/bathukamma1.jpg",
+    "/images/festivals/bathukamma2.jpg"
+  ]
+  },
+  {
+    "id": 30,
+    "name": "Ram Navami",
+    "state": "All India",
+    "description": "Celebration of the birth of Lord Rama with fasting, prayers, and processions.",
+    "month": "March–April",
+    "attire": "Traditional Indian attire",
+    "location": { "lat": 26.8467, "lng": 80.9462 },
+    "images": [
+      "/images/festivals/ramnavami1.jpg",
+      "/images/festivals/ramnavami2.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Bhogi",
+    "state": "South India",
+    "description": "First day of the Pongal festival celebrated by discarding old belongings and welcoming new beginnings.",
+    "month": "January",
+    "attire": "South Indian traditional wear",
+    "location": { "lat": 16.5062, "lng": 80.6480 },
+    "images": [
+      "/images/festivals/bhogi1.jpg",
+      "/images/festivals/bhogi2.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Boat Race Festival (Nehru Trophy)",
+    "state": "Kerala",
+    "description": "Iconic snake boat race held on Punnamada Lake with grand cultural celebrations.",
+    "month": "August",
+    "attire": "Casual/Traditional Kerala attire",
+    "location": { "lat": 9.4981, "lng": 76.3388 },
+    "images": [
+      "/images/festivals/boatrace1.jpg",
+      "/images/festivals/boatrace2.jpg"
+    ]
+  },
+  {
+  "id": 33,
+  "name": "Torgya Festival",
+  "state": "Arunachal Pradesh",
+  "description": "A vibrant Monpa Buddhist festival featuring masked Cham dances, colorful robes, and rituals to ward off evil spirits.",
+  "month": "January",
+  "attire": "Monpa robes, yak headgear, traditional monk costumes",
+  "location": { "lat": 27.4985, "lng": 91.7420 },
+  "images": [
+    "/images/festivals/torgya1.jpg",
+    "/images/festivals/torgya2.jpg"
+  ]
+  },
+  {
+    "id": 34,
+    "name": "Tarnetar Fair",
+    "state": "Gujarat",
+    "description": "Famous fair known for tribal dances, decorated umbrellas, and cultural performances.",
+    "month": "August–September",
+    "attire": "Traditional Gujarati attire",
+    "location": { "lat": 22.0481, "lng": 71.2056 },
+    "images": [
+      "/images/festivals/tarnetar1.jpg",
+      "/images/festivals/tarnetar2.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Losar",
+    "state": "Arunachal Pradesh, Ladakh, Himachal Pradesh",
+    "description": "Tibetan New Year festival celebrated with prayers, dances, and feasts.",
+    "month": "February–March",
+    "attire": "Traditional Tibetan/Ladakhi attire",
+    "location": { "lat": 34.1526, "lng": 77.5771 },
+    "images": [
+      "/images/festivals/losar1.jpg",
+      "/images/festivals/losar2.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Bhandara Festival",
+    "state": "Maharashtra",
+    "description": "Popular turmeric festival in Jejuri celebrated with vibrant yellow clouds of turmeric.",
+    "month": "February–March",
+    "attire": "Simple traditional attire",
+    "location": { "lat": 18.2760, "lng": 74.1592 },
+    "images": [
+      "/images/festivals/bhandara1.jpg",
+      "/images/festivals/bhandara2.jpg"
+    ]
+  },
+  {
+  "id": 37,
+  "name": "Ziro Festival of Music",
+  "state": "Arunachal Pradesh",
+  "description": "A dreamy open-air music festival set in the Ziro Valley, blending indie music with scenic mountains and Apatani tribal culture.",
+  "month": "September",
+  "attire": "Bohemian wear, tribal jewelry, nature-inspired outfits",
+  "location": { "lat": 27.5860, "lng": 93.8280 },
+  "images": [
+    "/images/festivals/ziro1.jpg",
+    "/images/festivals/ziro2.jpg"
+  ]
+  },
+  {
+  "id": 38,
+  "name": "Karam Festival",
+  "state": "Jharkhand",
+  "description": "A beautiful tribal festival where people worship the Karam tree with dance, music, and forest rituals celebrating nature and fertility.",
+  "month": "August–September",
+  "attire": "Tribal sarees, leaf ornaments, traditional dance outfits",
+  "location": { "lat": 23.6102, "lng": 85.2799 },
+  "images": [
+    "/images/festivals/karam1.jpg",
+    "/images/festivals/karam2.jpg"
+  ]
+  },
+  {
+    "id": 39,
+    "name": "Lavender Festival",
+    "state": "Kashmir",
+    "description": "Bloom festival celebrating Kashmir’s lavender fields with tours, music, and food.",
+    "month": "June–July",
+    "attire": "Kashmiri traditional attire",
+    "location": { "lat": 34.1692, "lng": 74.7810 },
+    "images": [
+      "/images/festivals/lavender1.jpg",
+      "/images/festivals/lavender2.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Bonderam Festival",
+    "state": "Goa",
+    "description": "Vibrant island festival in Divar featuring parades, traditional music, and floats.",
+    "month": "August",
+    "attire": "Casual or Goan traditional clothing",
+    "location": { "lat": 15.5400, "lng": 73.8800 },
+    "images": [
+      "/images/festivals/bonderam1.jpg",
+      "/images/festivals/bonderam2.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Bhairav Naach",
+    "state": "Himachal Pradesh",
+    "description": "Traditional ritual dance performed in villages to honor local deities.",
+    "month": "November–December",
+    "attire": "Himachali traditional attire",
+    "location": { "lat": 31.1048, "lng": 77.1734 },
+    "images": [
+      "/images/festivals/bhairav1.jpg",
+      "/images/festivals/bhairav2.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Modhera Dance Festival",
+    "state": "Gujarat",
+    "description": "Classical dance festival held at the Sun Temple with magnificent performances.",
+    "month": "January",
+    "attire": "Traditional Indian attire",
+    "location": { "lat": 23.5832, "lng": 72.1323 },
+    "images": [
+      "/images/festivals/modhera1.jpg",
+      "/images/festivals/modhera2.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Pattadakal Dance Festival",
+    "state": "Karnataka",
+    "description": "Classical dance event celebrating the world heritage temples of Pattadakal.",
+    "month": "January–February",
+    "attire": "Traditional South Indian attire",
+    "location": { "lat": 15.9477, "lng": 75.8170 },
+    "images": [
+      "/images/festivals/pattadakal1.jpg",
+      "/images/festivals/pattadakal2.jpg"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Phool Dei",
+    "state": "Uttarakhand",
+    "description": "Spring festival where young girls offer flowers at doorsteps to bring prosperity.",
+    "month": "March",
+    "attire": "Kumaoni and Garhwali traditional attire",
+    "location": { "lat": 29.3919, "lng": 79.4542 },
+    "images": [
+      "/images/festivals/phooldei1.jpg",
+      "/images/festivals/phooldei2.jpg"
+    ]
+  },
+  {
+  "id": 45,
+  "name": "Galdan Namchot",
+  "state": "Ladakh",
+  "description": "A winter festival celebrating the birthday of Je Tsongkhapa, marked by butter lamps glowing across snowy landscapes.",
+  "month": "December",
+  "attire": "Thick Gonchas, woolen accessories",
+  "location": { "lat": 34.1526, "lng": 77.5770 },
+  "images": [
+    "/images/festivals/namchot1.jpg",
+    "/images/festivals/namchot2.jpg"
+  ]
+  },
+  {
+  "id": 46,
+  "name": "Pandharpur Wari",
+  "state": "Maharashtra",
+  "description": "A deeply spiritual foot pilgrimage with saffron flags, traditional music, dhol-tasha, and devotional chants.",
+  "month": "June–July",
+  "attire": "White dhoti-kurta, Gandhi topi",
+  "location": { "lat": 17.6742, "lng": 75.3203 },
+  "images": [
+    "/images/festivals/wari1.jpg",
+    "/images/festivals/wari2.jpg"
+  ]
+  },
+  {
+  "id": 47,
+  "name": "Maru Mahotsav",
+  "state": "Rajasthan",
+  "description": "A vibrant desert celebration featuring camel parades, folk dance, fire shows, and golden dunes.",
+  "month": "February",
+  "attire": "Rajasthani ghagra, pagdi, embroidered suits",
+  "location": { "lat": 26.9157, "lng": 70.9083 },
+  "images": [
+    "/images/festivals/maru1.jpg",
+    "/images/festivals/maru2.jpg"
+  ]
+  },
+  {
+  "id": 48,
+  "name": "Dehing Patkai Festival",
+  "state": "Assam",
+  "description": "A nature and culture festival near the rainforest, blending tea culture, tribal dance, and eco-tourism.",
+  "month": "January",
+  "attire": "Assamese traditional outfits, tribal accessories",
+  "location": { "lat": 27.2904, "lng": 95.3290 },
+  "images": [
+    "/images/festivals/patkai1.jpg",
+    "/images/festivals/patkai2.jpg"
+   ]
+  },
+  {
+  "id": 49,
+  "name": "Yosakoi Festival",
+  "state": "Andaman & Nicobar Islands",
+  "description": "A unique fusion dance festival influenced by Japanese traditions, performed by the Nicobarese tribal community.",
+  "month": "March",
+  "attire": "Colorful skirts, feather accessories, tribal crowns",
+  "location": { "lat": 11.7401, "lng": 92.6586 },
+  "images": [
+    "/images/festivals/yosakoi1.jpg",
+    "/images/festivals/yosakoi2.jpg"
+  ]
+  },
+  {
+  "id": 50,
+  "name": "Moatsu Mong",
+  "state": "Nagaland",
+  "description": "A warm tribal harvest celebration with bonfires, warrior dance, rice beer, and vibrant shawls.",
+  "month": "May",
+  "attire": "Ao tribal shawls, beaded ornaments, headgear",
+  "location": { "lat": 26.3260, "lng": 94.5140 },
+  "images": [
+    "/images/festivals/moatsu1.jpg",
+    "/images/festivals/moatsu2.jpg"
+  ]
+ }
+]
