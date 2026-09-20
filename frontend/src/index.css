@@ -1,32 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Hide horizontal scrollbar */
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+/* ─── Hide horizontal scrollbar ──────────────────────────────────────────── */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* Global font */
+/* ─── Base ────────────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #F5EEDC;
-  color: #2E1F13;
+  background-color: #0E0307;
+  color: #FFF7ED;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* 🐐 GOAT WALKING ON SPOT ANIMATION */
-@keyframes goatWalkSpot {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-4px); }
-  100% { transform: translateY(0); }
+/* ─── Imperial Maroon & Gold Scrollbar ───────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0E0307; }
+::-webkit-scrollbar-thumb { background: #48162A; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #D4AF37; }
+
+/* ─── Selection color ─────────────────────────────────────────────────────── */
+::selection { background: rgba(212, 175, 55, 0.25); color: #FDE047; }
+
+/* ─── Luxury Glass utilities ──────────────────────────────────────────────── */
+.maroon-glass,
+.peacock-glass {
+  background: rgba(36, 11, 21, 0.8);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(72, 22, 42, 0.85);
 }
 
-.animate-goat-walk {
-  animation: goatWalkSpot 0.6s infinite ease-in-out;
+.gold-glass,
+.amber-glass {
+  background: rgba(212, 175, 55, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+}
+
+/* ─── Print styles for Booking Pass ───────────────────────────────────────── */
+@media print {
+  body { background: white !important; color: black !important; }
+  nav, footer, .no-print { display: none !important; }
+  .booking-pass { border: 2px solid #333 !important; box-shadow: none !important; }
 }

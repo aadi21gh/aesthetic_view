@@ -20,15 +20,21 @@ import GuideDetailPage from "@/pages/GuideDetailPage";
 import ProfilePage from "@/pages/ProfilePage";
 import BookingsPage from "@/pages/BookingsPage";
 import BookingDetailPage from "@/pages/BookingDetailPage";
+import AiTripPlanner from "@/pages/AiTripPlanner";
+import CulturalCalendar from "@/pages/CulturalCalendar";
+import WishlistPage from "@/pages/WishlistPage";
 
-// 🔥 UPDATED ProtectedRoute with loading support
+// ProtectedRoute: only blocks booking & profile pages
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth();
 
   if (loading) {
     return (
-      <div className="text-white flex items-center justify-center h-screen text-2xl">
-        Loading...
+      <div className="min-h-screen bg-[#0E0307] flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-12 h-12 border-4 border-[#D4AF37] border-t-transparent rounded-full animate-spin" />
+          <p className="text-[#D4AF37] font-serif font-medium tracking-widest text-sm uppercase">Entering Sanskriti Sanctuary...</p>
+        </div>
       </div>
     );
   }
@@ -48,112 +54,39 @@ export default function App() {
         <MobileDrawer />
 
         <Routes>
-          {/* Public Routes */}
+          {/* ── Public Routes (no login required) ── */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
 
-          {/* Protected Routes */}
-          <Route
-            path="/"
-            element={
-              <ProtectedRoute>
-                <Home />
-              </ProtectedRoute>
-            }
-          />
+          {/* Discovery — open to all (guest + logged-in) */}
+          <Route path="/" element={<Home />} />
+          <Route path="/states" element={<StatePage />} />
+          <Route path="/states/:id" element={<StateDetails />} />
+          <Route path="/festivals" element={<FestivalPage />} />
+          <Route path="/festivals/:id" element={<FestivalDetails />} />
+          <Route path="/hotels" element={<HotelsPage />} />
+          <Route path="/hotels/:id" element={<HotelDetailPage />} />
+          <Route path="/guides" element={<GuidesPage />} />
+          <Route path="/guides/:id" element={<GuideDetailPage />} />
+          <Route path="/ai-planner" element={<AiTripPlanner />} />
+          <Route path="/calendar" element={<CulturalCalendar />} />
 
-          <Route
-            path="/states"
-            element={
-              <ProtectedRoute>
-                <StatePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/states/:id"
-            element={
-              <ProtectedRoute>
-                <StateDetails />
-              </ProtectedRoute>
-            }
-          />
-
-          <Route
-            path="/festivals"
-            element={
-              <ProtectedRoute>
-                <FestivalPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/festivals/:id"
-            element={
-              <ProtectedRoute>
-                <FestivalDetails />
-              </ProtectedRoute>
-            }
-          />
-
-          <Route
-            path="/hotels"
-            element={
-              <ProtectedRoute>
-                <HotelsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/hotels/:id"
-            element={
-              <ProtectedRoute>
-                <HotelDetailPage />
-              </ProtectedRoute>
-            }
-          />
-
-          <Route
-            path="/guides"
-            element={
-              <ProtectedRoute>
-                <GuidesPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/guides/:id"
-            element={
-              <ProtectedRoute>
-                <GuideDetailPage />
-              </ProtectedRoute>
-            }
-          />
-
+          {/* ── Protected Routes (login required) ── */}
           <Route
             path="/profile"
-            element={
-              <ProtectedRoute>
-                <ProfilePage />
-              </ProtectedRoute>
-            }
+            element={<ProtectedRoute><ProfilePage /></ProtectedRoute>}
           />
-
           <Route
             path="/bookings"
-            element={
-              <ProtectedRoute>
-                <BookingsPage />
-              </ProtectedRoute>
-            }
+            element={<ProtectedRoute><BookingsPage /></ProtectedRoute>}
           />
           <Route
             path="/bookings/:id"
-            element={
-              <ProtectedRoute>
-                <BookingDetailPage />
-              </ProtectedRoute>
-            }
+            element={<ProtectedRoute><BookingDetailPage /></ProtectedRoute>}
+          />
+          <Route
+            path="/wishlist"
+            element={<ProtectedRoute><WishlistPage /></ProtectedRoute>}
           />
         </Routes>
 

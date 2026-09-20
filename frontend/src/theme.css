@@ -1,21 +1,126 @@
+/* ─── Royal Imperial Maroon & Polished Gold Luxury Color System ───────── */
 :root {
-    --beige: #F5EEDC;
-    --light-brown: #C19A6B;
-    --brown: #8B5E3C;
-    --dark-brown: #5A3E2B;
-    --deep-brown: #2E1F13;
-    --accent: #D5B895;
-  }
-  
-  /* Buttons */
-  .btn-primary {
-    background-color: var(--brown);
-    color: var(--beige);
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    transition: 0.2s;
-  }
-  .btn-primary:hover {
-    background-color: var(--dark-brown);
-  }
-  
+  /* Deepest Imperial Velvet Obsidian */
+  --bg-deepest: #090205;
+  --bg-midnight: #0E0307;
+  --bg-canvas: #19060E;
+
+  /* Elevated Velvet Maroon Surfaces */
+  --surface-card: #240B15;
+  --surface-elevated: #300E1C;
+  --surface-overlay: rgba(36, 11, 21, 0.88);
+
+  /* Borders & Dividers */
+  --border-subtle: #48162A;
+  --border-gold: #D4AF37;
+  --border-gold-glow: rgba(212, 175, 55, 0.35);
+
+  /* Imperial Polished Gold */
+  --gold-primary: #D4AF37;
+  --gold-light: #FBBF24;
+  --gold-bright: #FDE047;
+  --gold-dark: #B8860B;
+  --gold-glow: rgba(212, 175, 55, 0.45);
+
+  /* Royal Ruby Crimson */
+  --ruby-primary: #BE123C;
+  --ruby-light: #E11D48;
+  --ruby-dark: #881337;
+
+  /* Typography */
+  --text-ivory: #FFF7ED;
+  --text-champagne: #D6C7B8;
+  --text-muted: #A8988B;
+
+  /* Compatibility mappings */
+  --peacock-primary: #D4AF37;
+  --peacock-light: #FBBF24;
+  --peacock-dark: #B8860B;
+  --amber-primary: #D4AF37;
+  --amber-light: #FBBF24;
+  --beige: #FFF7ED;
+  --light-brown: #D4AF37;
+  --brown: #BE123C;
+  --dark-brown: #240B15;
+  --deep-brown: #0E0307;
+  --accent: #D4AF37;
+}
+
+/* ─── Luxury Primary Button (Imperial Polished Gold) ───────────────────── */
+.btn-primary {
+  background: linear-gradient(135deg, #FDE047, #D4AF37, #B8860B);
+  color: #0E0307;
+  font-weight: 700;
+  padding: 0.65rem 1.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 18px rgba(212, 175, 55, 0.3);
+  border: 1px solid rgba(253, 224, 71, 0.5);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #FFF085, #FACC15, #D4AF37);
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 26px rgba(212, 175, 55, 0.5);
+}
+
+/* ─── Luxury Secondary Button (Royal Maroon Glass with Gold Border) ────── */
+.btn-secondary {
+  background: #240B15;
+  color: #FBBF24;
+  border: 1px solid #48162A;
+  font-weight: 600;
+  padding: 0.65rem 1.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-secondary:hover {
+  border-color: #D4AF37;
+  background: #300E1C;
+  color: #FFF7ED;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+}
+
+/* ─── Imperial Gold Glow Button ────────────────────────────────────────── */
+.btn-gold,
+.btn-peacock {
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #0E0307;
+  font-weight: 700;
+  padding: 0.65rem 1.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 18px rgba(212, 175, 55, 0.3);
+}
+
+.btn-gold:hover,
+.btn-peacock:hover {
+  background: linear-gradient(135deg, #FBBF24, #D4AF37);
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 24px rgba(212, 175, 55, 0.5);
+}
+
+/* ─── Imperial Royal Luxury Card ───────────────────────────────────────── */
+.royal-card,
+.peacock-card {
+  background: #240B15;
+  border: 1px solid #48162A;
+  border-radius: 1.25rem;
+  transition: all 0.25s ease;
+}
+
+.royal-card:hover,
+.peacock-card:hover {
+  border-color: #D4AF37;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(9, 2, 5, 0.8), 0 0 24px rgba(212, 175, 55, 0.18);
+}
